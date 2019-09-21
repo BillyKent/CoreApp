@@ -1,6 +1,5 @@
 package me.doapps.core.activity
 
-import android.graphics.Color
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import kotlinx.android.synthetic.main.activity_assistance.*
 import me.doapps.core.R
-import me.doapps.core.extension.showShortToast
+import me.doapps.core.utils.showShortToast
 import me.doapps.core.session.Preferences
 import me.doapps.core.viewmodel.AssistanceViewModel
 

@@ -1,9 +1,7 @@
 package me.doapps.core.viewmodel
 
-import androidx.databinding.ObservableField
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import me.doapps.core.extension.logInfo
 import me.doapps.core.model.MessageResponse
 import me.doapps.core.retrofit.RetrofitConfig.coreApi
 import retrofit2.Call

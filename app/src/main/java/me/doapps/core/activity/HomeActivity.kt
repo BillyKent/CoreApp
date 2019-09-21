@@ -11,9 +11,8 @@ import kotlinx.android.synthetic.main.activity_home.*
 import me.doapps.core.R
 import me.doapps.core.adapter.HomeListAdapter
 import me.doapps.core.databinding.ActivityHomeBinding
-import me.doapps.core.extension.*
 import me.doapps.core.session.Preferences
-import me.doapps.core.utils.Constants
+import me.doapps.core.utils.*
 import me.doapps.core.viewmodel.HomeViewModel
 
 class HomeActivity : AppCompatActivity() {

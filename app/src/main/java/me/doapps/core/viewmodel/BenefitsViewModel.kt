@@ -2,7 +2,6 @@ package me.doapps.core.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import me.doapps.core.extension.logInfo
 import me.doapps.core.model.Benefit
 import me.doapps.core.retrofit.RetrofitConfig.coreApi
 import me.doapps.core.session.Preferences

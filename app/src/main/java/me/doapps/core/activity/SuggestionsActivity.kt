@@ -9,8 +9,8 @@ import kotlinx.android.synthetic.main.activity_suggestions.*
 import kotlinx.android.synthetic.main.toolbar_back.*
 import me.doapps.core.R
 import me.doapps.core.databinding.ActivitySuggestionsBinding
-import me.doapps.core.extension.setToolbarWithBackButton
-import me.doapps.core.extension.showLongToast
+import me.doapps.core.utils.setToolbarWithBackButton
+import me.doapps.core.utils.showLongToast
 import me.doapps.core.viewmodel.SuggestionsViewModel
 
 class SuggestionsActivity : AppCompatActivity() {

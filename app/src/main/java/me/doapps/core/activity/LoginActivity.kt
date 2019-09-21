@@ -8,9 +8,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import me.doapps.core.R
 import me.doapps.core.databinding.ActivityLoginBinding
-import me.doapps.core.extension.getGoogleSignInClientFromContext
-import me.doapps.core.extension.openAndFinishActivity
-import me.doapps.core.extension.showLongToast
+import me.doapps.core.utils.getGoogleSignInClientFromContext
+import me.doapps.core.utils.openAndFinishActivity
+import me.doapps.core.utils.showLongToast
 import me.doapps.core.session.Preferences
 import me.doapps.core.utils.Constants
 import me.doapps.core.viewmodel.LoginViewModel

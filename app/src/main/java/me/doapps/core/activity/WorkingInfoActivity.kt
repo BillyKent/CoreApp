@@ -2,7 +2,6 @@ package me.doapps.core.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import androidx.core.text.HtmlCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -10,8 +9,8 @@ import kotlinx.android.synthetic.main.activity_working_info.*
 import kotlinx.android.synthetic.main.toolbar_back.*
 import me.doapps.core.R
 import me.doapps.core.adapter.DocumentListAdapter
-import me.doapps.core.extension.setToolbarWithBackButton
-import me.doapps.core.extension.showLongToast
+import me.doapps.core.utils.setToolbarWithBackButton
+import me.doapps.core.utils.showLongToast
 import me.doapps.core.session.Preferences
 import me.doapps.core.viewmodel.WorkingInfoViewModel
 

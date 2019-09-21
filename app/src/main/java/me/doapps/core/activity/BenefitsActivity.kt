@@ -8,8 +8,8 @@ import kotlinx.android.synthetic.main.activity_benefits.*
 import kotlinx.android.synthetic.main.toolbar_back.*
 import me.doapps.core.R
 import me.doapps.core.adapter.BenefitsListAdapter
-import me.doapps.core.extension.setToolbarWithBackButton
-import me.doapps.core.extension.showLongToast
+import me.doapps.core.utils.setToolbarWithBackButton
+import me.doapps.core.utils.showLongToast
 import me.doapps.core.session.Preferences
 import me.doapps.core.utils.Constants
 import me.doapps.core.viewmodel.BenefitsViewModel

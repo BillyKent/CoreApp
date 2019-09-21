@@ -8,7 +8,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.tasks.Task
-import me.doapps.core.extension.logInfo
+import me.doapps.core.utils.logInfo
 import me.doapps.core.model.User
 import me.doapps.core.retrofit.RetrofitConfig.coreApi
 import me.doapps.core.session.Preferences
@@ -16,7 +16,6 @@ import me.doapps.core.utils.Constants
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import kotlin.math.log
 
 class LoginViewModel : ViewModel() {
 

@@ -5,14 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import me.doapps.core.databinding.RecyclerBenefitItemBinding
-import me.doapps.core.extension.logInfo
 import me.doapps.core.model.Benefit
-import me.doapps.core.viewmodel.BenefitsViewModel
-import android.R.attr.animationDuration
-import android.view.animation.DecelerateInterpolator
-import android.view.animation.Animation
-import android.view.animation.RotateAnimation
-import kotlinx.android.synthetic.main.recycler_benefit_item.view.*
 
 
 open class BenefitsListAdapter(
