@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_title_text_size">23sp</dimen>
+
+    <dimen name="expandable_item_height">55dp</dimen>
+</resources>

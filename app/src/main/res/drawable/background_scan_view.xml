@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:width="22dp"
+            android:height="21dp"
+            android:gravity="top|start"
+            android:drawable="@drawable/ic_corner" />
+
+    <item
+            android:width="21dp"
+            android:height="21dp"
+            android:gravity="end|top">
+        <rotate
+                android:drawable="@drawable/ic_corner"
+                android:fromDegrees="90"/>
+    </item>
+    <item
+            android:width="22dp"
+            android:height="21dp"
+            android:gravity="end|bottom">
+        <rotate
+                android:drawable="@drawable/ic_corner"
+                android:fromDegrees="180"/>
+    </item>
+    <item
+            android:width="21dp"
+            android:height="21dp"
+            android:gravity="start|bottom">
+        <rotate
+                android:drawable="@drawable/ic_corner"
+                android:fromDegrees="270"/>
+    </item>
+
+
+</layer-list>

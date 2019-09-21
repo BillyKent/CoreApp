@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="benefit"
+                type="me.doapps.core.model.Benefit" />
+    </data>
+
+    <LinearLayout
+            android:id="@+id/cardexample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+
+            android:background="@drawable/item_border"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/expandable_item_height"
+                android:background="@drawable/item_benefit_title"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="19dp"
+                android:weightSum="1">
+
+            <TextView
+                    style="@style/benefit_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@{benefit.name}"
+                    tools:text="Intellij Idea Profesional" />
+
+            <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+
+                    app:srcCompat="@drawable/ic_arrow_bottom" />
+
+        </LinearLayout>
+
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+                android:id="@+id/expandableSubItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingTop="11dp"
+                android:paddingBottom="14dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <include
+                        android:id="@+id/usernameSubItem"
+                        layout="@layout/recycler_benefit_subitem" />
+
+                <include
+                        android:id="@+id/passwordSubItem"
+                        layout="@layout/recycler_benefit_subitem" />
+
+                <include
+                        android:id="@+id/serialSubItem"
+                        layout="@layout/recycler_benefit_subitem" />
+
+
+            </LinearLayout>
+
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+
+    </LinearLayout>
+
+
+</layout>

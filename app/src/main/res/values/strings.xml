@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Core</string>
+
+    <!-- Login -->
+    <string name="login_title">Eres parte de la familia</string>
+    <string name="login_subtitle">Y como tal tienes derecho a muchos beneficios, descubre cuáles son.</string>
+    <string name="login_button_text">Ingresa con Google</string>
+
+
+    <!-- Working Info -->
+    <string name="working_info_text">El 28 de cada mes , no olvides generar tu recibo por honorarios y enviarlo a &lt;b&gt; administración@doapps.me &lt;/b&gt; </string>
+</resources>

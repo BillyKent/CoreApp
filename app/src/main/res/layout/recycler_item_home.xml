@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="destination"
+                type="me.doapps.core.viewmodel.HomeViewModel.Destination" />
+
+        <variable
+                name="viewmodel"
+                type="me.doapps.core.viewmodel.HomeViewModel" />
+
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+
+            android:onClick="@{ ()-> viewmodel.chooseDestination(destination)}"
+
+            app:cardBackgroundColor="@color/background"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+
+        <TextView
+                style="@style/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginStart="30dp"
+
+                android:text="@{destination.destinationName}"
+                tools:text="Herramientas" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/ic_plant" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>
